@@ -1,0 +1,19 @@
+{
+  "name": "richardrobinsonx.com",
+  "version": "1.0.0",
+  "description": "My personal site",
+  "main": "_site/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardrobinsonx/richardrobinsonx.com.git"
+  },
+  "author": "Richard Robinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardrobinsonx/richardrobinsonx.com/issues"
+  },
+  "homepage": "https://github.com/richardrobinsonx/richardrobinsonx.com#readme"
+}
