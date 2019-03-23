@@ -1,0 +1,69 @@
+/* Site Header */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #96BC67;
+}
+#site-container {
+    margin: 2em;
+    padding: 2em;
+    background-color: white;
+}
+#site-header {
+    /*
+    border: 1px solid #ccc;
+    */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+/* Site Brand / Logo */
+#site-brand {
+}
+#site-brand img {
+}
+
+/* Site Nav */
+#site-nav {
+    margin-left: 2em;
+}
+#site-nav ul {
+    margin: 1em 0;
+    padding: 0;
+}
+#site-nav ul li {
+    display: inline;
+    margin: 0 .5em;
+}
+
+
+
+#content {
+    display: grid;
+    grid-template-columns:  2fr 1fr;
+    grid-gap: 2em;
+}
+#content > article {
+    /*
+    border: 1px solid red;
+    */
+}
+#content > aside {
+    /*
+    border: 1px solid rebeccapurple;
+    */
+}
+
+ul.article-list {
+    list-style: none;
+    padding: 0;
+}
+ul.article-list li {
+    display: inline-block;
+    /*
+    border: 1px solid red;
+    */
+}
